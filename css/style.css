@@ -1,0 +1,94 @@
+.StatusBar {
+  width: 100%;
+}
+
+.favorite {
+  width: 22px;
+  height: auto;
+  padding-top: 1%;
+  float: right;
+}
+
+.left-arrow {
+  width: 14px;
+  height: auto;
+  padding-top: 1%;
+  float: left;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+}
+
+.line {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  line-height: 1.2em;
+  background-color: #fff;
+  overflow: scroll;
+}
+
+.italics {
+  font-style: italic;
+  padding-bottom: 2%;
+}
+
+form {
+  padding-bottom: 5%;
+}
+
+input[type=text] {
+  width: 98%;
+  font-family: 'Helvetica', sans-serif;
+  border: solid;
+  border-width: 2.5px;
+  border-color: #f2f2f2;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 1%;
+  color: #800080;
+}
+
+h3, h5, h6 {
+  background-color: #D3D3D3;
+  font-size: 16px;
+  color: #800080;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  color: #282828;
+}
+
+h5 {
+  color: #e1b000;
+}
+
+h6 {
+  color: #aa0000;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+}
+
+ul {
+  padding-bottom: 2%;
+}
