@@ -1,24 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family:'SF Pro Text', sans-serif;
+  font-size: 13px;
+  width: 375px;
+  height:auto;
+  margin: 0 auto;
+}
+.button {
+  background-color:purple;
+  border: none;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.button2 {
+  background-color:green;
+  border: none;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.button3 {
+  background-color:blue;
+  border: none;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.button4 {
+  background-color:orange;
+  border: none;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.button5 {
+  background-color:red;
+  border: none;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.container {
+  margin: 0; auto;
+  width: 375px;
+}
+.fas {
+  display:inline;
+  float:left;
+  color: blue;
+  padding-left: 5px;
+  size: 5px;
+}
+
 .StatusBar {
   width: 100%;
 }
 
-.favorite {
-  width: 22px;
+.Profile {
+  width: 24px;
   height: auto;
-  padding-top: 1%;
+  padding-top: 1.2%;
+  margin-right: 1.5%;
   float: right;
+  cursor: pointer;
 }
 
 .left-arrow {
   width: 14px;
   height: auto;
-  padding-top: 1%;
+  padding-top: 1.2%;
+  margin-left: 1.5%;
   float: left;
-}
-
-.container {
-  margin: 0 auto;
-  width: 375px;
+  cursor: pointer;
 }
 
 .line {
@@ -32,35 +113,27 @@
   overflow: scroll;
 }
 
-.italics {
-  font-style: italic;
-  padding-bottom: 2%;
-}
-
-form {
-  padding-bottom: 5%;
-}
-
-input[type=text] {
-  width: 98%;
-  font-family: 'Helvetica', sans-serif;
-  border: solid;
-  border-width: 2.5px;
-  border-color: #f2f2f2;
-  font-size: 14px;
-  line-height: 2em;
-}
-
 h1 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 18px;
-  padding-top: 1%;
-  color: #800080;
+  font-family:'SF pro text',sans-serif;
+  font-size: 20px;
+  align-content: center;
+  line-height: 1.8em;
+  font-weight: Light;
+  color: Grey;
+  display: inline;
 }
 
-h3, h5, h6 {
-  background-color: #D3D3D3;
+h2 {
+  font-family:'SF pro text',sans-serif;
+  font-size: 15px;
+  align-content: center;
+  line-height: 1.3em;
+  font-weight: bold;
+  display: inline;
+}
+
+h3,h4,h5 {
+  background-color: #white;
   font-size: 16px;
   color: #800080;
   font-weight: bold;
@@ -69,26 +142,79 @@ h3, h5, h6 {
 }
 
 h4 {
-  font-weight: bold;
-  color: #282828;
+  color: #aa0000;
 }
+
 
 h5 {
   color: #e1b000;
 }
 
-h6 {
-  color: #aa0000;
+
+img{
+  width: 375px;
+  height:auto;
+  background-color: white;
+  margin: 0 auto;
+}
+nav {
+  margin: 0; auto;
+  padding: 0px,0px,15px,15px;
+  width: 375px;
+  background-color:white;
+  height:65px;
+  text-align: center;
+  font-family: 'SF pro text',sans-serif;
+  font-size: 20px;
+  display:block;
 }
 
-body {
-  background-color: #fff;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: left;
+nav1 {
+  margin: 0; auto;
+  padding: 0px,0px,15px,15px;
+  width: 375px;
+  background-color:#D8D8D8;
+  height:24px;
+  text-align: center;
+  font-family: 'SF pro text',sans-serif;
+  font-size: 20px;
+  display:block;
 }
 
 ul {
-  padding-bottom: 2%;
+  padding: 0;
+  border-bottom: 1px solid #D8D8D8;
+}
+ul li {
+  list-style-type: none;
+}
+
+ul li ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.left {
+  width: 5%;
+  padding-left: 3px;
+}
+
+.center {
+  width: 60%;
+  padding-left: 30px;
+}
+.right {
+  width: 40%
+}
+
+.arrow{
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  float: right;
+  filter: grayscale(100%);
+  cursor: pointer;
 }

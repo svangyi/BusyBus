@@ -1,63 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Sandy's Frontend Challenge</title>
-    <link href="https://fonts.googleapis.com/css?family=Ruda:400,700,900&amp;subset=latin-ext" rel="stylesheet">    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://use.fontawesome.com/37471687aa.js"></script>
-  </head>
-  <body>
-    <section class="container">
-      <header>
-        <img src="image/AppleStatusBar.png" class="StatusBar" alt="ASB"/>
-        <img src="image/chevron-left-solid.svg" class="left-arrow" alt="LA"/>
-        <img src="image/heart-solid.svg" class="favorite" alt="F"/>
-        <h1> Washington / State </h1>
-      </header>
-      <nav>
-        <form action="/action_page.php"><br>
-          <input placeholder="From: Washington & State" type="text" name="to"><br><br>
-          <input placeholder="To:" type="text" name="from">
-        </form>
-    </nav>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+</head>
+<body>
+  <section class="container">
+    <nav>
+      <img src="image/AppleStatusBar.png" class="StatusBar" alt="ASB"/>
+      <img src="image/chevron-left-solid.svg" class="left-arrow" alt="LA"/>
+      <img src="image/user-circle-solid.svg" class="Profile" alt="P"/>
+      <h1> Washington & State </h1>
+      </nav>
       <section class="line">
-        <h3>Eastbound</h3>
+      <nav1>
+      <h3>Eastbound</h3>
+    </nav1>
+      <ul>
+        <li>
           <ul>
-            <li><h4>60 Randolph / Harbor Dr.</h4></li>
-            <li>Every 20 minutes</li>
+            <div class="arrow">
+              <i class="fas fa-sort-down" aria-hidden="true"></i>
+            </div>
+            <li class="left"><button class= "button">60 </button></li>
+            <li class="center"><h2>Randolph/Harbor Dr</h2><br />Every 20 min</li></li>
           </ul>
+        </li>
+        <li>
           <ul>
-            <li><h4>124 Navy Pier</h4></li>
-            <li>Every 10 minutes</li>
+            <div class="arrow">
+              <i class="fas fa-sort-down" aria-hidden="true"></i>
+            </div>
+            <li class="left"><button class= "button">124</button></li>
+            <li class="center"><h2>Navy Pier</h2><br />Every 10 min</li></li></li>
           </ul>
-        <h3>Northbound</h3>
+        </li>
+      </ul>
+      <section class="line">
+        <nav1>
+      <h3>Northbound</h3>
+    </nav1>
+      <ul>
+        <li>
           <ul>
-            <li><h4>151 Devon / Clark</h4></li>
-            <li>Every 16 minutes</li>
+            <div class="arrow">
+              <i class="fas fa-sort-down" aria-hidden="true"></i>
+            </div>
+            <li class="left"><button class= "button2">151</button></li>
+            <li class="center"><h2>Devon/Clark</h2><br />Every 16 min</li>
           </ul>
-        <h3>Southbound</h3>
+        </li>
+      </ul>
+      <section class="line">
+        <nav1>
+      <h3>Southbound</h3>
+    </nav1>
+      <ul>
+        <li>
           <ul>
-            <li><h4>J14 103rd / Stony Island</h4></li>
-            <li>Every 15 minutes</li>
+            <div class="arrow">
+              <i class="fas fa-sort-down" aria-hidden="true"></i>
+            </div>
+            <li class="left"><button class= "button3">J14</button></li>
+            <li class="center"><h2>103rd/Stony Island</h2><br />Every 15 min</li>
           </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
           <ul>
-            <li><h4>124 Navy Pier</h4></li>
-            <li>Every 10 minutes</li>
+            <div class="arrow">
+              <i class="fas fa-sort-down" aria-hidden="true"></i>
+            </div>
+            <li class="left"><button class= "button3">124</button></li>
+            <li class="center"><h2>Navy Pier</h2><br />Every 10 min</li>
           </ul>
-        <h5>Reroute</h5>
-          <ul>
-            <li><h4>6X Jackson Park Express</h4></li>
-            <li>Reroute currently N/A</li>
-          </ul>
-        <h6>Out of service</h6>
-        <h4>4 Cottage Grove</h4>
-          <div class="italics">Resumes 12:10am</div>
-        <h4>20 Madison</h4>
-          <div class="italics">Resumes 12:10am</div>
-        <h4>157 Streeterville / Taylor</h4>
-          <div class="italics">Resumes 6:00am</div>
-        </section>
-      </section>
-  </body>
-</html>
+        </li>
+      </ul>
+      <section class="line">
+        <nav1>
+      <h5>Reroute</h5>
+    </nav1>
+        <ul>
+          <li>
+            <ul>
+              <div class="arrow">
+                <i class="fas fa-sort-down" aria-hidden="true"></i>
+              </div>
+              <li class="left"><button class= "button4">6X</button></li>
+              <li class="center"><h2>Jackson Park Express</h2><br />N/A</li>
+            </ul>
+          </li>
+        </ul>
+        <section class="line">
+          <nav1>
+        <h4>Out of Service</h4>
+      </nav1>
+        <ul>
+          <li>
+            <ul>
+                <div class="arrow">
+                  <i class="fas fa-sort-down" aria-hidden="true"></i>
+                </div>
+              <li class="left"><button class= "button5">4</button></li>
+              <li class="center"><h2>Cottage Grove</h2><br />Resumes 12:10am</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <ul>
+              <div class="arrow">
+                <i class="fas fa-sort-down" aria-hidden="true"></i>
+              </div>
+              <li class="left"><button class= "button5">20</button></li>
+              <li class="center"><h2>Madison</h2><br /> Resumes 12:10am</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <ul>
+              <div class="arrow">
+                <i class="fas fa-sort-down" aria-hidden="true"></i>
+              </div>
+              <li class="left"><button class= "button5">157</button></li>
+              <li class="center"><h2>Streetville/Taylor</h2><br />Resumes 6:00am</li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+
+    </body>
+    </html>
